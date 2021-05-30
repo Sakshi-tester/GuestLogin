@@ -1,0 +1,6 @@
+18:20:24.744 [main] INFO  psModule.ConfigPageTest - Successfully verify Heading of Config page
+18:20:57.228 [main] INFO  psModule.ConfigPageTest - Navigated to Front end
+18:21:31.436 [main] DEBUG psModule.ConfigPageTest - Disable module from config page
+18:21:36.992 [main] DEBUG psModule.ConfigPageTest - Successfully disabled module at config page
+18:21:58.448 [main] INFO  psModule.ProductPageTest - Product added to the cart
+18:22:17.521 [main] INFO  psModule.CheckoutPageTest - Landed to the checkout page

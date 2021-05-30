@@ -1,0 +1,6 @@
+17:11:40.874 [main] INFO  psModule.CheckoutPageTest - Successfully entered information
+17:11:54.139 [main] INFO  psModule.CheckoutPageTest - Successfully entered address
+17:11:59.130 [main] INFO  psModule.CheckoutPageTest - Redirected to the shipping method 
+17:12:19.648 [main] INFO  psModule.CheckoutPageTest - Redirected to the payment method 
+17:12:19.703 [main] INFO  psModule.CheckoutPageTest - Successfully validated create new account button 
+17:17:53.624 [main] INFO  psModule.CheckoutPageTest - Landed to the checkout page

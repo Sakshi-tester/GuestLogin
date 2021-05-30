@@ -1,0 +1,4 @@
+18:22:29.522 [main] INFO  psModule.CheckoutPageTest - Successfully entered information
+18:22:42.352 [main] INFO  psModule.CheckoutPageTest - Successfully entered address
+18:22:48.356 [main] INFO  psModule.CheckoutPageTest - Redirected to the shipping method 
+18:23:06.662 [main] INFO  psModule.CheckoutPageTest - Redirected to the payment method 

@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">LoginPage</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">8,115</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Backend</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">29,772</td><td></td><td></td></tr>
+<tr><td><a href="#t2">ConfigPage</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">104,786</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Frontend</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">10,296</td><td></td><td></td></tr>
+<tr><td><a href="#t4">ProductPage</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,153</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">CheckoutPage</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">90,937</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">2</th><th class="num">255,059</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginPage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">psModule.LoginPageTest</td><td><a href="#m0">checkLogin</a></td><td rowspan="1">1618490961673</td><td rowspan="1">302</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Backend &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">psModule.BackHomePageTest</td><td><a href="#m1">verifyTabClick</a></td><td rowspan="1">1618490969573</td><td rowspan="1">22615</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">ConfigPage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">psModule.ConfigPageTest</td><td><a href="#m2">validateDisableBtn</a></td><td rowspan="1">1618491091435</td><td rowspan="1">5557</td></tr><tr class="passedeven"><td><a href="#m3">validateGuestLoginBtn</a></td><td rowspan="1">1618491057129</td><td rowspan="1">100</td></tr><tr class="passedeven"><td><a href="#m4">verifyConfigPage</a></td><td rowspan="1">1618491024702</td><td rowspan="1">50</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Frontend &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">psModule.FrontHomePageTest</td><td><a href="#m5">setUp</a></td><td rowspan="1">1618491097754</td><td rowspan="1">10286</td></tr><tr><th colspan="4">Frontend &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">psModule.FrontHomePageTest</td><td><a href="#m6">tearDown</a></td><td rowspan="1">1618491108048</td><td rowspan="1">-1618491108048</td></tr><tr><th colspan="4">Frontend &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">psModule.FrontHomePageTest</td><td><a href="#m7">verifyGuestLoginBtn</a></td><td rowspan="1">1618491108045</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">ProductPage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">psModule.ProductPageTest</td><td><a href="#m8">addProductToCart</a></td><td rowspan="1">1618491118448</td><td rowspan="1">114</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">CheckoutPage &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">psModule.CheckoutPageTest</td><td><a href="#m9">verifyCreateAccountBtn</a></td><td rowspan="1">1618491134216</td><td rowspan="1">62482</td></tr><tr class="failedeven"><td><a href="#m10">verifyMailSentText</a></td><td rowspan="1">1618491197089</td><td rowspan="1">12059</td></tr></tbody>
+</table>
+<h2>LoginPage</h2><h3 id="m0">psModule.LoginPageTest#checkLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Backend</h2><h3 id="m1">psModule.BackHomePageTest#verifyTabClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ConfigPage</h2><h3 id="m2">psModule.ConfigPageTest#validateDisableBtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">psModule.ConfigPageTest#validateGuestLoginBtn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">psModule.ConfigPageTest#verifyConfigPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Frontend</h2><h3 id="m5">psModule.FrontHomePageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at psModule.FrontHomePageTest.setUp(FrontHomePageTest.java:36)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">psModule.FrontHomePageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">psModule.FrontHomePageTest#verifyGuestLoginBtn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at psModule.FrontHomePageTest.setUp(FrontHomePageTest.java:36)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ProductPage</h2><h3 id="m8">psModule.ProductPageTest#addProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>CheckoutPage</h2><h3 id="m9">psModule.CheckoutPageTest#verifyCreateAccountBtn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#wkgetnewacc&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-N61OB3H5&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Sakshi\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b1897d03145db25ff3e45e0c3babba9
+*** Element info: {Using=id, value=wkgetnewacc}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy29.click(Unknown Source)
+	at pages.CheckoutPage.getnewAccount(CheckoutPage.java:143)
+	at psModule.CheckoutPageTest.verifyCreateAccountBtn(CheckoutPageTest.java:64)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">psModule.CheckoutPageTest#verifyMailSentText</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.alert.alert-success&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-N61OB3H5&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Sakshi\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b1897d03145db25ff3e45e0c3babba9
+*** Element info: {Using=css selector, value=div.alert.alert-success}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy29.getText(Unknown Source)
+	at pages.CheckoutPage.getMailText(CheckoutPage.java:148)
+	at psModule.CheckoutPageTest.verifyMailSentText(CheckoutPageTest.java:75)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

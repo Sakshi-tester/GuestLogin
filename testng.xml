@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+<listener class-name="psModule.Listeners"/>
+
+</listeners>
+  <test thread-count="5" name="LoginPage">
+    <classes>
+      <class name="psModule.LoginPageTest"/>
+      </classes>
+  </test> 
+  <test thread-count="5" name="Backend">
+    <classes>
+      <class name="psModule.BackHomePageTest"/>
+       </classes>
+  </test>
+  <test thread-count="5" name="ConfigPage">
+    <classes>
+      <class name="psModule.ConfigPageTest"/>
+         </classes>
+  </test>
+  <test thread-count="5" name="Frontend">
+    <classes>
+      <class name="psModule.FrontHomePageTest"/>
+         </classes>
+  </test>
+  <test thread-count="5" name="ProductPage">
+    <classes>
+      <class name="psModule.ProductPageTest"/>
+         </classes>
+  </test>
+   <test thread-count="5" name="CheckoutPage">
+    <classes>
+      <class name="psModule.CheckoutPageTest"/>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

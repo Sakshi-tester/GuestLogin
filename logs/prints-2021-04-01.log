@@ -1,0 +1,6 @@
+17:14:19.684 [main] INFO  psModule.BackHomePageTest - Successfully searched module by name
+17:14:26.152 [main] INFO  psModule.BackHomePageTest - Successfully configured module
+17:14:53.417 [main] INFO  psModule.ConfigPageTest - Successfully verify Heading of Config page
+17:15:38.648 [main] INFO  psModule.ConfigPageTest - Navigated to Front end
+17:16:30.914 [main] INFO  psModule.ProductPageTest - Product added to the cart
+17:16:46.433 [main] INFO  psModule.CheckoutPageTest - Landed to the checkout page

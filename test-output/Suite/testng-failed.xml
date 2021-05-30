@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="psModule.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Frontend(failed)">
+    <classes>
+      <class name="psModule.FrontHomePageTest">
+        <methods>
+          <include name="verifyGuestLoginBtn"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- psModule.FrontHomePageTest -->
+    </classes>
+  </test> <!-- Frontend(failed) -->
+  <test thread-count="5" name="CheckoutPage(failed)">
+    <classes>
+      <class name="psModule.CheckoutPageTest">
+        <methods>
+          <include name="verifyMailSentText"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyCreateAccountBtn"/>
+        </methods>
+      </class> <!-- psModule.CheckoutPageTest -->
+    </classes>
+  </test> <!-- CheckoutPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
